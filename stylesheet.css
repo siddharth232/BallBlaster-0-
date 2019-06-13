@@ -1,0 +1,72 @@
+<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+    p{
+      position: absolute;
+      }
+   button{
+    position: absolute;
+   }   
+		#canvas {
+  width: 850px;
+  height: 653px;
+  border: 1px solid black;
+  position: absolute;
+  right: 20%;
+  top: 0px;
+  display: none;
+}
+#index{
+  width: 600px;
+  height: 653px;
+  border: 1px solid black;
+  position: absolute;
+  right: 30%;
+  top: 0px;
+}
+       #title{
+          font-family: 'Cute Font', cursive;
+          font-size: 100px;
+          top: 40px;
+          left: 120px;
+      }
+       #des{
+          font-family: 'Cute Font', cursive;
+          font-size: 50px;
+          top: 220px;
+          left: 70px;
+      }
+      #name{
+              top: 380px;
+              height: 34px;
+              border-radius: 5px 5px 5px 5px;
+              border-style: solid;
+              border-width: 1px;
+              border-color: #BDC7D8;
+              position: absolute;
+              width:320px;
+              height: 20px;
+              font-size: 18px;
+              padding: 10px;
+              left: 120px;  
+      }
+       #butt{
+            border-radius: 5px 5px 5px 5px;
+            color:white;
+            background-color: #619F4E;
+            font-weight: bold;
+            width:200px;
+            height:40px;
+            left:180px;
+            top:490px;
+            position: absolute;
+            border-color: #3B6E22;
+            border-width: 1px;
+            box-sizing: border-box;
+            font-size: 20px;
+            font-family: Helvetica;
+            cursor: pointer;
+      }
+	</style>
